@@ -100,16 +100,43 @@
         <p>By studying the overlap of all four characteristics together, students' struggles become much clearer. Only 16.38% of student exceed the average in
             all four categories (≥20 hours of studying, ≥7 hours of sleeping, ≥3 hours of physical activity, ≥67% on their exam). In fact, the 50% percentile of all students
             gets studies for 19 hours, sleeps for 5, engages in physical activity for 2, and scores a 64, falling behind all the standards. In addition:</p>
+        <div class='my-5'></div>  
 
-         <ul>
-            <li>About 25% of students met the traditional standards of health: sleeping 8 hours and exercising for at least 30 minutes a day.</li>
-            <li>Only 5.62% of students scored a C (73%) or better, the typical standard of average in the classroom.</li>
-            <li>The 50th percentile described above (19 hours of studying, 5 hours of sleeping, 2 hours of physical activity, and scoring a 64)
-            totals to 56 hours per week, only about 30% of the total time student have a week. This suggests that students spend the majority of
-            their time outside of their studies.</li>
-        </ul>
-                
-        <div class='my-5'></div>   
+        <div class="row">
+            <div class="col-sm-4">
+                <ul class="nav flex-column nav-pills" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" href="#panel46429053" data-toggle="tab">Physical Wellbeing</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#panel70902758" data-toggle="tab">Classroom Standards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#panel80479127" data-toggle="tab">Total Time Spent</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <div class="tab-content" id="tab-Contentundefined">
+                    <div class="mt-3 ml-2 tab-pane fade show active" id="panel46429053" role="tabpanel"
+                        aria-labelledby="...">
+                        <h5>Keeping the body healthy</h5>
+                        <p>About 25% of students met the traditional standards of health: sleeping 8 hours and exercising for at least 30 minutes a day (which totals
+                        three hours for the week, taking Sundays as a rest day). 0.48% of students exercise for an hours a day, or six hours total, as recommended by the 
+                        <a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults">American Heart Association</a> for teens</p>
+                    </div>
+                    <div class="mt-3 ml-2 tab-pane fade" id="panel70902758" role="tabpanel" aria-labelledby="...">
+                        <h5>How 'average' is a C?</h5>
+                        <p>Only 5.62% of students scored a C (73%) or better, the typical standard of average in the classroom. Many teachers and employers today
+                        expect students to maintain perfect grades and GPA's, but this data shows just how difficult that task is. Only 0.23% of students received
+                        an A (>93%) on the exam.</p>
+                    </div>
+                    <div class="mt-3 ml-2 tab-pane fade" id="panel80479127" role="tabpanel" aria-labelledby="...">
+                        <h5>How do students spend their time?</h5>
+                        <p>The 50th percentile described above (19 hours of studying, 5 hours of sleeping, 2 hours of physical activity, and scoring a 64)
+                        totals to 56 hours per week, only about 30% of the total time student have a week. This suggests that students spend the majority of
+                        their time outside of their studies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='my-5'></div>        
         <p>Enter thresholds for each variable. The calculator will determine what percentage of students meet or exceed these values.</p>
 
         <form id="calcForm" class="my-4">
@@ -164,40 +191,8 @@
             document.getElementById('result').innerText = `Percentage of students meeting criteria: ${percent}%`;
         }
     </script>
-
-    <div class="row">
-            <div class="col-sm-4">
-                <ul class="nav flex-column nav-pills" role="tablist">
-                    <li class="nav-item"><a class="nav-link active" href="#panel46429053" data-toggle="tab">Link</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#panel70902758" data-toggle="tab">Link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#panel80479127" data-toggle="tab">Link</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-8">
-                <div class="tab-content" id="tab-Contentundefined">
-                    <div class="mt-3 ml-2 tab-pane fade show active" id="panel46429053" role="tabpanel"
-                        aria-labelledby="...">
-                        <h5>Content Area 1</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere corporis!</p>
-                    </div>
-                    <div class="mt-3 ml-2 tab-pane fade" id="panel70902758" role="tabpanel" aria-labelledby="...">
-                        <h5>Content Area 2</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere corporis!</p>
-                    </div>
-                    <div class="mt-3 ml-2 tab-pane fade" id="panel80479127" role="tabpanel" aria-labelledby="...">
-                        <h5>Content Area 3</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere corporis!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
     <div class='py-3 my-5'></div>
-   
-
-
-        
+     
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
